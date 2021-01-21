@@ -14,6 +14,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "47f90fa74239fa09e117284f", // release JPush 上注册的包名对应的 Appkey.
+                JPUSH_CHANNEL: "default",
+        ]
     }
 
     buildTypes {
