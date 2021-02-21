@@ -57,5 +57,5 @@ dependencies {
         changing = true
     }
 
-    api(name: 'wheateklib-release', ext: 'aar')
+    api(name: 'wheatek-ad', ext: 'aar')
 }
